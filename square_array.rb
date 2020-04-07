@@ -1,4 +1,6 @@
 def square_array(array)
   # your code here
-  array.each {|ele| ele = ele ** 2}
+  out = []
+  array.each {|ele| out << ele ** 2}
+  out 
 end
